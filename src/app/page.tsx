@@ -100,4 +100,11 @@ export default function Home() {
       </footer>
     </div>
   );
+export default function Home() {
+  return (
+    <main style={{ padding: 32 }}>
+      <h1>Hello AIMR 🚀</h1>
+      <p>This is deployed from Next.js on Vercel.</p>
+    </main>
+  );
 }
